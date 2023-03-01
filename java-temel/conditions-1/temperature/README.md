@@ -1,4 +1,4 @@
-###Conditions :
+### Conditions :
 
 #### Suggest to "Ski" if the temperature is less than 5.
 #### Suggest the "Cinema" event if the temperature is between 5 and 15.
