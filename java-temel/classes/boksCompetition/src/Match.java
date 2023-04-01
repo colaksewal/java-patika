@@ -26,7 +26,7 @@ class Match {
 
                 System.out.println("============NEW ROUND==============");
 
-                if(change() > 50){
+                if(change() == 0){
 
                     f2.health = f1.hit(f2);
 
@@ -86,10 +86,11 @@ class Match {
         System.out.println("Score "+ f1.name+ " Remaining life: "+ f1.health + " || " + f2.name + " Remaining life: " + f2.health+ " || ");
     }
 
-    int change(){
+     int change(){
         Random random = new Random();
-        
+        return random.nextInt(2);
     }
+
 
 
 
